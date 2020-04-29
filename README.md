@@ -1,5 +1,5 @@
 # cs5293sp20-project2
-##The Summarizer
+## The Summarizer
 
    There are huge chuck of documents with a bundle of data. These documents can be shortened to a set of data or we could say creating a subset of the documents or summarize them to get the important and relavent data from the documents.Summarization can be done for text,images and videos.Text summarization can be done in two process extraction-based summarizations and abstraction-based summarizations.Here in this project I have followed the extraction-based summarizations.Which means extracting key sentences to do the summarizations for the documents.
    In this project,we can extract the summaries by selecting random documents by giving the percentage of how many documents of the total documents are to be considered.
@@ -11,7 +11,7 @@
   
    ## JSON schema of full text documents
 
-
+~~~
 {
     "paper_id": <str>,                      # 40-character sha1 of the PDF
     "metadata": {
@@ -96,7 +96,7 @@
         "back_matter": <list of dict>           # same structure as body_text
     }
 }
-                          
+~~~                          
 # Description of the functions: 
  
 ## readfiles()
